@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact us</title>
+    <link rel="stylesheet" href="../css/styleIndex.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contactus.css" />
+    <link rel="icon" href="../media/images/star.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <ul class="navList">
+          <li class="li">
+            <img id="navImg" src="../media/images/star.png" alt="star logo" />
+          </li>
+          <li class="li">
+            <a href="#" onclick="location.href ='../index.html'">home</a>
+          </li>
+          <li class="li">
+            <a href="#" onclick="location.href ='./secondpage.html'">notes</a>
+          </li>
+          <li class="li">
+            <a href="#" onclick="location.href ='./todopage.html'"
+              >to do list</a
+            >
+          </li>
+          <li class="li">
+            <a href="#" onclick="location.href ='./calculatorpage.html' "
+              >calculator</a
+            >
+          </li>
+          <li class="li">
+            <a href="# " onclick="location.href ='./contact.html' "
+              >contact us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+  <div class= h2Div">
+    <h2>contact us</h2>
+    <p>swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="../media/images/womantalking.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">first name</label>
+        <input type="text" id="fname" name="firstname" placeholder="first name..">
+        <label for="lname">last name</label>
+        <input type="text" id="lname" name="lastname" placeholder="last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">australia</option>
+          <option value="canada">canada</option>
+          <option value="usa">usa</option>
+        </select>
+        <label for="subject">subject</label>
+        <textarea id="subject" name="subject" placeholder="write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer">
+      &copy; all rights reserved, 2019.
+      <br />
+      <img
+        id="footerpic"
+        src="./media/images/star.png"
+        alt="logo"
+        width="30"
+        height="30"
+      />
+    </footer>
+  </body>
+</html>
